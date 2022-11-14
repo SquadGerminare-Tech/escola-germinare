@@ -1,0 +1,2 @@
+//images
+declare module "*.png"

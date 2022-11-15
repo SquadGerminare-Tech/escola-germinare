@@ -8,8 +8,13 @@ const StyleInstituto = styled('main')({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  backgrounColor: '#E8E7E7',
-  gap: '1.5rem'
+  backgroundColor: '#E8E7E7',
+  gap: '1.5rem',
+  '& .paragrafo': {
+    width: '43rem',
+    fontSize: '1.125em',
+    fontWeight: '500'
+  }
 })
 
 export default StyleInstituto

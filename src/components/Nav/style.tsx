@@ -60,7 +60,8 @@ const Nav = styled('nav')({
         color: '#EFEFEF',
         textTransform: 'uppercase',
         fontWeight: '500',
-        borderRadius: '4px'
+        borderRadius: '4px',
+        cursor: 'pointer'
     }
 })
 

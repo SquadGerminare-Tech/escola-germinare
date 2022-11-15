@@ -5,8 +5,8 @@ const StyleInicio = styled('main')({
     color: '#E8E7E7',
     justifyContent: 'center',
     backgroundColor: '#2E3092',
-    width: '100vw',
-    height: '100vh',
+    width: 'calc(100vw - 16px)',
+    height: '100vh', 
     padding: '60px 100px',
     "& .borrao": {
         position: 'absolute',

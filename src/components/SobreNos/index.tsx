@@ -1,12 +1,12 @@
-import Inicio from './Hero/index'
+import Hero from './Hero/index'
 
 const SobreNos = () => {
-    return(
-        <>
-            <Inicio />
-            <p>ola</p>
-        </>
-    )
+  return (
+    <>
+      <Hero />
+      <p>ola</p>
+    </>
+  )
 }
 
 export default SobreNos

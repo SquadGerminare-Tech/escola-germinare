@@ -1,14 +1,23 @@
-import { styled } from "@mui/system"
+import { styled } from '@mui/system'
+import { transform } from 'typescript'
 
 const Nav = styled('nav')({
-    position: 'fixed',
-    top: '0',
-    width: '100vw',
-    backgroundColor: '#2E3092',
-    color: '#e8e7e7',
-    fontWeight: '500',
-    padding: '0 100px',
-    justifyContent: 'space-between',
+  position: 'fixed',
+  top: '0',
+  width: '100vw',
+  height: '5rem',
+  backgroundColor: '#2E3092',
+  color: '#E8E7E7',
+  fontWeight: '500',
+  padding: '0 100px',
+  justifyContent: 'space-between',
+  display: 'flex',
+  alignItems: 'center',
+  zIndex: '2',
+  '& .logo': {
+    height: '3.25rem'
+  },
+  '& .content': {
     display: 'flex',
     alignItems: 'center',
     zIndex: "2",
@@ -60,9 +69,9 @@ const Nav = styled('nav')({
         color: '#EFEFEF',
         textTransform: 'uppercase',
         fontWeight: '500',
-        borderRadius: '4px',
-        cursor: 'pointer'
+        borderRadius: '4px'
     }
+  }
 })
 
 export default Nav

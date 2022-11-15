@@ -2,7 +2,7 @@ import { styled } from "@mui/system"
 
 const StyleInicio = styled('main')({
     display: 'flex',
-    color: 'white',
+    color: '#E8E7E7',
     justifyContent: 'center',
     backgroundColor: '#2E3092',
     width: '100vw',
@@ -22,10 +22,10 @@ const StyleInicio = styled('main')({
     },
     "& .content": {
         display: 'flex',
-        width: '100%',
         justifyContent: 'space-between',
         alignItems: 'center',
         zIndex: '1',
+        gap: '3rem',
     },
     "& .letter": {
         fontSize: '3.5rem'

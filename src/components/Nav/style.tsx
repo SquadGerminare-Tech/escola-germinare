@@ -36,7 +36,22 @@ const Nav = styled('nav')({
                 paddingTop: '1px'
         }
     },
-    "& .inputt": {
+    "& .inputStyle": {
+        visibility: 'hidden',
+        opacity: "0",
+        marginLeft: '-180px',
+        background: 'none',
+        border: 'none',
+        borderBottom: '2px solid white',
+        color: 'white',
+        ":focus": {
+            outline: 'none',
+        }
+    },
+    "& .btnLupa": {
+        background: 'none',
+        cursor: 'pointer',
+        border: 'none',
     },
     "& .botao": {
         padding: '8px 20px',

@@ -48,6 +48,9 @@ const Nav = styled('nav')({
     color: 'white',
     ':focus': {
       outline: 'none'
+    },
+    '::placeholder': {
+      color: 'white'
     }
   },
   '& .btnLupa': {

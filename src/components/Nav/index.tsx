@@ -51,6 +51,7 @@ const NavBar = (/*props: tipo*/) => {
             ref={esconder}
             onChange={ouvirInput}
             id="hiddenInput"
+            placeholder="Search..."
             onKeyPress={e => {
               if (e.key.toLowerCase() == 'enter') {
                 console.log(data)

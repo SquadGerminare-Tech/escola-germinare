@@ -9,6 +9,7 @@ const StyleHero = styled('main')({
   top: '5rem',
   height: '38rem',
   padding: '60px 100px',
+  alignItems: 'center',
   '& .borrao': {
     position: 'absolute',
     left: '16rem',

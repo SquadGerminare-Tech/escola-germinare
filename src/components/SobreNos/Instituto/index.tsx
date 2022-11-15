@@ -5,10 +5,10 @@ const Instituto = () => {
   return (
     <>
       <StyleInstituto>
-        <h1>
+        <h1 style={{ fontSize: '2.5em' }}>
           Sobre o <span style={{ color: '#00AEEF' }}>Germinare</span>
         </h1>
-        <p className="paragrafo" style={{ width: '43rem' }}>
+        <p className="paragrafo">
           Formamos efetivamente, jovens administradores de empresa que tenham
           total aderência aos valores, alta capacidade de liderança e
           competência para produzir resultados superlativos.

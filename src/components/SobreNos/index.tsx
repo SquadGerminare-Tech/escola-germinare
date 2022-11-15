@@ -1,10 +1,11 @@
 import Hero from './Hero/index'
+import Instituto from './Instituto/index'
 
 const SobreNos = () => {
   return (
     <>
-      <Hero />
-      <p>ola</p>
+      <Hero titulo={'Transformando o Brasil através da educação'} />
+      <Instituto />
     </>
   )
 }

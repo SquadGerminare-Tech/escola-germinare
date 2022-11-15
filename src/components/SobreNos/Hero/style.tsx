@@ -30,7 +30,8 @@ const StyleHero = styled('main')({
   },
   '& .letter': {
     fontSize: '3.5em',
-    fontWeight: '700'
+    fontWeight: '700',
+    width: '46rem'
   },
   '& .logo': {
     opacity: '0.4'

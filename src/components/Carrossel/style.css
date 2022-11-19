@@ -1,7 +1,6 @@
 .container{
     width: 100%;
     margin: 0 auto;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -25,4 +24,11 @@
 .carrossel{
     cursor: grab;
     overflow: hidden;
+}
+
+.seta{
+    border-top: 3px solid green;
+    width:'100px';
+    height: '20px';
+    align-items: center;
 }

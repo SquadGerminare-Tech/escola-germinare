@@ -14,7 +14,7 @@
     min-width: 400px;
     padding: 14px;
     background-color: red;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .item div{
@@ -28,7 +28,7 @@
 
 .seta{
     border-top: 3px solid green;
-    width:'100px';
-    height: '20px';
-    align-items: center;
+    width: 100px;
+    height: 20px;
+    margin: 0;
 }

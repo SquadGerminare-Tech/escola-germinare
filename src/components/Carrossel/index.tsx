@@ -23,7 +23,7 @@ const ComponentCarrossel = (props: tipo) => {
                 drag={'x'}
                 dragConstraints={{ right: 0, left: -tamanho}}>
                     {props.lista.map((item: any) => (
-                    <div style={{display: "flex"}}  key={props.lista.indexOf(item)}>
+                    <div style={{display: "flex", alignItems: "center"}}  key={props.lista.indexOf(item)}>
                         <motion.div className='item'>
                             {item}
                         </motion.div>

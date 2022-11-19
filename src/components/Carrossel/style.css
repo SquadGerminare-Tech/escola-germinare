@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.inner{
+    display: flex;
+}
+
+.item{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 14px;
+    background-color: red;
+    margin: 20px;
+}
+
+.item div{
+    pointer-events: none;
+}
+
+.carrossel{
+    cursor: grab;
+    overflow: hidden;
+}

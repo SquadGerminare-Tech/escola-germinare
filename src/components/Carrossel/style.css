@@ -26,9 +26,9 @@
     overflow: hidden;
 }
 
-.seta{
-    border-top: 3px solid green;
-    width: 100px;
-    height: 20px;
-    margin: 0;
+.valores{
+    min-height: 80px;
+    min-width: 300px;
+    margin: 10px;
+    color: white;
 }

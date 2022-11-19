@@ -4,7 +4,8 @@ import { motion } from 'framer-motion'
 import { useRef, useState, useEffect } from 'react'
 
 interface tipo {
-    lista: Array<{}>
+    lista: Array<{}>,
+    classe: string
 }
 
 const ComponentCarrossel = (props: tipo) => {
@@ -23,12 +24,9 @@ const ComponentCarrossel = (props: tipo) => {
                 drag={'x'}
                 dragConstraints={{ right: 0, left: -tamanho}}>
                     {props.lista.map((item: any) => (
-                    <div style={{display: "flex", alignItems: "center"}}  key={props.lista.indexOf(item)}>
-                        <motion.div className='item'>
+                        <motion.div className={props.classe} style={{display: "flex", alignItems: "center"}}  key={props.lista.indexOf(item)}>
                             {item}
                         </motion.div>
-                        <div className='seta'></div>
-                        </div>
                     ))}
                 </motion.div>
             </motion.div>

@@ -17,18 +17,19 @@ const NavBar = (/*props: tipo*/) => {
   }
 
   const showItem = () => {
-    if (esconder.current.style.visibility == 'hidden') {
-      esconder.current.style.marginLeft = '0'
-      esconder.current.style.transition =
-        ' visibility 2s, opacity 1s linear, margin-left 0.7s'
-      esconder.current.style.opacity = '1'
-      esconder.current.style.visibility = 'visible'
-    } else {
+    if (esconder.current.style.visibility == 'visible') {
       esconder.current.style.visibility = 'hidden'
       esconder.current.style.opacity = '0'
       esconder.current.style.transition =
         ' visibility 1s, opacity 0.2s linear, margin-left 1s'
       esconder.current.style.marginLeft = '-180px'
+    } else {
+      console.log('ola')
+      esconder.current.style.marginLeft = '0'
+      esconder.current.style.transition =
+        ' visibility 2s, opacity 1s linear, margin-left 0.7s'
+      esconder.current.style.opacity = '1'
+      esconder.current.style.visibility = 'visible'
     }
   }
 

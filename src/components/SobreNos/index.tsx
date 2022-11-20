@@ -7,7 +7,6 @@ import CEBAS from '../../assets/CEBAS.png'
 import CMDCA from '../../assets/CMDCA.png'
 import UNESCO from '../../assets/UNESCO.png'
 import UPF from '../../assets/UPF.png'
-import { url } from 'inspector'
 
 const SobreNos = () => {
   let listaElementos: Array<any> = [, 

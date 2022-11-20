@@ -2,7 +2,12 @@ import Hero from './Hero/index'
 import Instituto from './Instituto/index'
 import ProjetoAcedmico from './ProjetoAcademico'
 import ComponentCarrossel from '../Carrossel/index'
-import Valores from './style'
+import { Valores, Certificados } from './style'
+import CEBAS from '../../assets/CEBAS.png'
+import CMDCA from '../../assets/CMDCA.png'
+import UNESCO from '../../assets/UNESCO.png'
+import UPF from '../../assets/UPF.png'
+import { url } from 'inspector'
 
 const SobreNos = () => {
   let listaElementos: Array<any> = [, 
@@ -14,12 +19,20 @@ const SobreNos = () => {
   <Valores style={{backgroundColor: "#387BBD"}}>Humildade</Valores>, 
   <Valores style={{backgroundColor: "#2E3092"}}>Atitude de Dono</Valores>, 
 ]
+
+let certificados = [
+    <Certificados style={{backgroundImage: `url(${UNESCO})`, backgroundColor: '#1583B2', backgroundSize: '250px'}}></Certificados>,
+    <Certificados style={{backgroundImage: `url(${CEBAS})`, backgroundColor: '#88C268', backgroundSize: '400px'}}></Certificados>,
+    <Certificados style={{backgroundImage: `url(${UPF})`, backgroundSize: '350px', backgroundColor: '#ED923A'}}></Certificados>,
+    <Certificados style={{backgroundImage: `url(${CMDCA})`, backgroundColor: '#C51D26', backgroundSize: '400px'}}></Certificados>,
+]
   return (
     <>
       <Hero titulo={'Transformando o Brasil através da educação'} />
       <Instituto />
       <ProjetoAcedmico />
       <ComponentCarrossel lista={listaElementos} classe={"valores"}/>
+      <ComponentCarrossel lista={certificados} classe={"certificados"}></ComponentCarrossel>
     </>
   )
 }

@@ -9,4 +9,12 @@ const Valores = styled('div')({
     borderRadius: '10px',
 })
 
-export default Valores
+const Certificados = styled('div')({
+    width: '100%',
+    height: '100%',
+    backgroundPosition: 'center', 
+    backgroundRepeat: 'no-repeat',
+    borderRadius: '15px'
+})
+
+export {Certificados, Valores}

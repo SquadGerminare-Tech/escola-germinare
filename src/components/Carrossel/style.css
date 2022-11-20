@@ -13,7 +13,7 @@
     min-height: 200px;
     min-width: 400px;
     padding: 14px;
-    background-color: red;
+    background-color: blue;
     margin: 20px 0;
 }
 
@@ -31,4 +31,10 @@
     min-width: 300px;
     margin: 10px;
     color: white;
+}
+
+.certificados{
+    margin: 10px;
+    min-width: 700px;
+    height: 400px;
 }

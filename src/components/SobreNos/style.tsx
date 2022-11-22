@@ -10,11 +10,15 @@ const Valores = styled('div')({
 })
 
 const Certificados = styled('div')({
+    cursor: 'pointer',
     width: '100%',
     height: '100%',
     backgroundPosition: 'center', 
     backgroundRepeat: 'no-repeat',
-    borderRadius: '15px'
+    borderRadius: '15px',
+    "& span": {
+        width: '50%'
+    }
 })
 
 export {Certificados, Valores}

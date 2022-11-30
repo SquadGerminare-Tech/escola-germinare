@@ -1,6 +1,6 @@
 import { styled } from '@mui/system'
 
-const StyleInstituto = styled('main')({
+const StyleInstituto = styled('section')({
   padding: '60px 100px',
   position: 'relative',
   textAlign: 'center',

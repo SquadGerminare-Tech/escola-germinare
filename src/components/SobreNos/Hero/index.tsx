@@ -10,10 +10,10 @@ const Hero = (props: hero) => {
   return (
     <>
       <StyleHero>
-        <div className="borrao"></div>
-        <div className="content">
-          <img className="logo" src={logo} alt="Logo"></img>
-          <h1 className="letter">{props.titulo}</h1>
+        <div className='borrao'></div>
+        <div className='content'>
+          <img className='logo' src={logo} alt='Logo'></img>
+          <h1 className='letter'>{props.titulo}</h1>
         </div>
       </StyleHero>
     </>

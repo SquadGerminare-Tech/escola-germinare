@@ -81,7 +81,7 @@ const SobreNos = () => {
         }
       />
       <SobreGerminare />
-      <Instituto />
+      {/* <Instituto />
       <NossosValores />
       <Ecossistema />
       <ComponentCarrossel
@@ -89,7 +89,7 @@ const SobreNos = () => {
         classe={'certificados'}
         direcao='x'
       ></ComponentCarrossel>
-      {/* <ComponentCarrossel lista={certificados} classe={"certificados"} direcao='y'></ComponentCarrossel> */}
+      <ComponentCarrossel lista={certificados} classe={"certificados"} direcao='y'></ComponentCarrossel> */}
     </main>
   )
 }

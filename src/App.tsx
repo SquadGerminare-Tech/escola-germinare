@@ -1,13 +1,11 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header/index'
-import SobreNos from './components/SobreNos/index'
+import HomePage from './components/SobreNos/about'
 
 function App() {
   return (
     <>
-      <Header />
-      {/* <SobreNos></SobreNos> */}
+      <HomePage></HomePage>
     </>
   )
 }

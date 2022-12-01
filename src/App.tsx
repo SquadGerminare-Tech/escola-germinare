@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import HomePage from './components/SobreNos/about'
+import SobreNos from './components/SobreNos/index'
 
 function App() {
   return (
     <>
-      <HomePage></HomePage>
+      <SobreNos></SobreNos>
     </>
   )
 }

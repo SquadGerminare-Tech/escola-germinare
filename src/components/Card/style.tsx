@@ -17,6 +17,7 @@ const CardTypeOne = styled('div')({
         '& p':{
             marginTop: '10px',
             width: '20px',
+            wordWrap: 'break-word'
         }
     },
     '& .imgCard': {

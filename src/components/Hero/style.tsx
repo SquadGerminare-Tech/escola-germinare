@@ -2,7 +2,6 @@ import { styled } from '@mui/system'
 
 const StyleHero = styled('section')({
   color: '#E8E7E7',
-  border: '1px solid red',
   width: '100%',
   height: '80vh',
   padding: '40px 100px',

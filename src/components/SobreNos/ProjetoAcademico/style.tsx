@@ -1,6 +1,6 @@
 import { styled } from '@mui/system'
 
-const StyleProjetoAcademico = styled('main')({
+const StyleProjetoAcademico = styled('section')({
   padding: '60px 100px',
   display: 'flex',
   flexDirection: 'column',

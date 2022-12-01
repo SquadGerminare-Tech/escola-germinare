@@ -5,7 +5,7 @@ import StyleEco from "./style"
 const Ecossistema = () => {
     return(
         <StyleEco>
-            <div>
+            <div className="stick">
                 <h2>Como nosso ecossistema está conectado?</h2>
                 <p>Tudo que trabalha em conjunto para a conquista do nosso objetivo: formar efetivamente jovens tocadores de negócios</p>
                 <button>SAIBA MAIS</button>

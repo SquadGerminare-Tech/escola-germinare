@@ -5,7 +5,7 @@ const CardTypeOne = styled('div')({
     backgroundColor: '#40429B',
     maxWidth:'500px',
     height:'220px',
-    borderRadius: '10px',
+    borderRadius: '10px', 
     color: 'white',
     margin: '10px',
     '& div':{

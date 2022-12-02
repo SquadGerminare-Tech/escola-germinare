@@ -1,5 +1,5 @@
 import StyleNossaEquipe from './style'
-import CardNossaEquipe from '../../../components/Cards/CardNossaEquipe'
+import CardNossaEquipe from '../../../components/CardTypes/CardNossaEquipe'
 import odete from '../../../assets/odete.png'
 import raul from '../../../assets/raul.png'
 import cintia from '../../../assets/cintia.png'

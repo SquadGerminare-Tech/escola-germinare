@@ -19,7 +19,7 @@ const StyleHero = styled('section')({
   },
   '& .text': {
     fontSize: '1.125em',
-    width: '38rem'
+    width: '690px'
   }
 })
 

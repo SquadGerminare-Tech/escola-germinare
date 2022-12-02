@@ -16,7 +16,8 @@ const AboutGerminare = styled('section')({
     fontSize: '2em'
   },
   '& .p': {
-    fontSize: '1.125em'
+    fontSize: '1.125em',
+    color: '#2E3092',
   }
 })
 

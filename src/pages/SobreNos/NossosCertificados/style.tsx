@@ -12,16 +12,13 @@ const Certificados = styled('div')({
 })
 
 const StyleCertificados = styled('div')({
-    textAlign: 'center',
-    color: '#2E3092',
-    backgroundColor: '#E8E7E7',
-    "& h2": {
-        padding: '40px',
-        fontSize: '2rem',
-        "& span": {
-          color: '#375BA9'
-        }
-    }
+  padding: '40px 0',
+  textAlign: 'center',
+  '& h2': {
+    marginBottom:'1.5rem',
+    fontSize: '2em',
+    color: '#2E3092'
+  }
 })
 
 export { Certificados, StyleCertificados }

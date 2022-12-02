@@ -19,14 +19,17 @@ const StyleHeader = styled('header')({
     color: '#E8E7E7',
     fontSize: '.875em',
     fontWeight: '400',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    transition: '0.2s linear',
+    borderBottom: 'solid #2E3092 1px',
+    ':hover': {
+      paddingBottom: '2px',
+      borderBottom: 'solid #E8E7E7 1px'
+    }
   },
   '& .navItemContainer': {
     padding: '12px 0',
-    ':hover': {
-      paddingBottom: '11px',
-      borderBottom: 'solid #E8E7E7 1px'
-    }
+    
   },
   '& .nav': {
     display: 'flex',

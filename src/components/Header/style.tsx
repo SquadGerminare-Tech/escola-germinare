@@ -21,8 +21,9 @@ const StyleHeader = styled('header')({
     fontWeight: '400',
     textDecoration: 'none',
     transition: '0.2s linear',
+    borderBottom: 'solid #2E3092 1px',
     ':hover': {
-      paddingBottom: '5px',
+      paddingBottom: '2px',
       borderBottom: 'solid #E8E7E7 1px'
     }
   },

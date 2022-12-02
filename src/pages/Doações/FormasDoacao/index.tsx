@@ -1,6 +1,5 @@
 import React from 'react'
 import StyleDoacao from './style'
-import ComponentCarrossel from '../../../components/Carrossel'
 
 const FormasDoacao = () => {
     return (

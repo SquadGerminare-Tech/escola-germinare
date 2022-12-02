@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {BackgroundSection, ContainerTxt} from './style'
+import {BackgroundSection, ContainerTxt, ContainerCelular} from './style'
 
 interface Section {
     title: string,
@@ -18,7 +18,9 @@ const Section_Celular = (props: Section) => {
                     <p>{props.children}</p>
                 </ContainerTxt>
 
-                
+                <ContainerCelular>
+                        
+                </ContainerCelular>
                     
                 </div>
 

@@ -10,7 +10,9 @@ const BackgroundSection = styled('div')({
     flexDirection:'row',
     '& div': {
         margin: 'auto 100px',
-        //backgroundColor: 'pink'
+        backgroundColor: 'pink',
+        display: 'flex',
+        justifyContent:'space-around'
     }
 })
 
@@ -18,7 +20,7 @@ const ContainerTxt = styled('div')({
     display:'flex',
     flexDirection:'column',
     justifyContent:'center',
-    width: '45%',
+    width: '48%',
     '& .titleSection': {
         color: '#2E3092',
         fontSize:'40px',
@@ -27,30 +29,12 @@ const ContainerTxt = styled('div')({
 
 })
 
-// const CardTypeOne = styled('div')({
-//     display: 'flex',
-//     backgroundColor: '#40429B',
-//     maxWidth:'500px',
-//     height:'220px',
-//     borderRadius: '10px',
-//     color: 'white',
-//     marginLeft: '500px',
-//     '& div':{
-//         padding: '20px',
-//         width: '50%',
-//         '& h2':{
-//             fontWeight: '100'
-//         },
-//         '& p':{
-//             marginTop: '10px',
-//             width: '20px',
-//         }
-//     },
-//     '& .imgCard': {
-//         height: '100%',
-//         width: '50%',
-//         borderRadius: '10px 0 0 10px'
-//     }
-// })
+const ContainerCelular = styled('div')({
+    display:'flex',
+    border:' 8px solid #2E3092',
+    borderRadius:'20px',
+    width:'244px',
+    height:'464px'
+})
 
-export { BackgroundSection,ContainerTxt}
+export { BackgroundSection, ContainerTxt, ContainerCelular}

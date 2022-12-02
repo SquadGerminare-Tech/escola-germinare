@@ -1,4 +1,4 @@
-import Card from '../../../components/Card/index'
+import Card from '../../../components/Cards/Card0ne/index'
 import image1 from '../../../assets/img-card1.png'
 import StyleEcossistema from './style'
 import ButtonOneAlt from '../../../components/Buttons/ButtonOneAlt/index'

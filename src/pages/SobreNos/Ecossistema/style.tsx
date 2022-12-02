@@ -11,7 +11,8 @@ const StyleEcossistema = styled('section')({
     position: 'sticky',
     top: '100px',
     bottom: '10px',
-    height: '200px'
+    height: '200px',
+    marginBottom: '3.75rem'
   }
 })
 

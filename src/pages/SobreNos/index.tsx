@@ -1,12 +1,13 @@
+import React from 'react'
 import Hero from '../../components/Hero/index'
 import background from '../../assets/background-inicio.png'
 import GerminareMudancas from './GerminareMudancas/index'
 import NossosValores from './NossosValores'
 import Ecossistema from './Ecossistema'
-import React from 'react'
 import Header from '../../components/Header/index'
 import SobreGerminare from './SobreGerminare/index'
 import NossosCertificados from './NossosCertificados/index'
+import NossaEquipe from './NossaEquipe'
 
 const SobreNos = () => {
   return (
@@ -23,6 +24,8 @@ const SobreNos = () => {
       <GerminareMudancas />
       <NossosValores />
       <Ecossistema />
+      <NossosCertificados></NossosCertificados>
+      <NossaEquipe></NossaEquipe>
       {/* <ComponentCarrossel
         lista={certificados}
         classe={'certificados'}

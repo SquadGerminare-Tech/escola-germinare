@@ -48,9 +48,7 @@ const Header = (/*props: tipo*/) => {
           </a>
         </li>
         <li className='navItemContainer'>
-          <a className='navItem' href=''>
-            Academias
-          </a>
+          <Link to='/doacao' className='navItem'>Academias</Link>
         </li>
         <li className='navItemContainer'>
           <a className='navItem' href=''>

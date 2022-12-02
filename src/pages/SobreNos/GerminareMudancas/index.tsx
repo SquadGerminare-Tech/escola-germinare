@@ -16,8 +16,8 @@ const GerminareMudancas = () => {
         style={{ borderRadius: '8px' }}
       ></iframe>
       <p className='paragrafo'>
-        sdrfctvgybuhnjicrtfvygbuhndcftvygbrtvbyunrftgyhujimcvbn alta capacidade
-        de liderança e competência para produzir resultados superlativos.
+        Desde de sua fundação, a escola Germinare tem como missão formar jovens gestores de negócios por meio de uma educação única e inteiramente gratuita. E no dia 8 de fevereiro de 2022, completamos 12 anos de Germinare.
+        Vem com a gente acompanhar toda a nossa evolução!
       </p>
     </StyleGerminareMudancas>
   )

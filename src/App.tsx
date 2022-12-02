@@ -3,12 +3,12 @@ import './App.css'
 
 import Header from './components/Header/index'
 import Section_Celular from './components/Section_Celular'
-import SobreNos from './components/SobreNos/index'
+import SobreNos from './pages/SobreNos/index'
 
 function App() {
   return (
     <>
-    <SobreNos></SobreNos>
+      <SobreNos></SobreNos>
       {/* <Header /> */}
       {/* <Section_Celular 
       title='Nossas redes sociais'>

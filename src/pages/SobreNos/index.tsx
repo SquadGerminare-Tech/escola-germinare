@@ -1,10 +1,10 @@
-import Hero from '../Hero/index'
+import Hero from '../../components/Hero/index'
 import background from '../../assets/background-inicio.png'
 import GerminareMudancas from './GerminareMudancas/index'
 import NossosValores from './NossosValores'
 import Ecossistema from './Ecossistema'
 import React from 'react'
-import Header from '../Header/index'
+import Header from '../../components/Header/index'
 import SobreGerminare from './SobreGerminare/index'
 import NossosCertificados from './NossosCertificados/index'
 

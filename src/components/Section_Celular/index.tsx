@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {BackgroundSection, ContainerTxt, ContainerCelular} from './style'
-import $ from 'jquery'
+// import $ from 'jquery'
 
 interface Section {
     title: string,

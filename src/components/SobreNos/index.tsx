@@ -22,8 +22,8 @@ const SobreNos = () => {
       <SobreGerminare />
       <GerminareMudancas />
       <NossosValores />
-      {/* <Ecossistema />
-      <ComponentCarrossel
+      <Ecossistema />
+      {/* <ComponentCarrossel
         lista={certificados}
         classe={'certificados'}
         direcao='x'

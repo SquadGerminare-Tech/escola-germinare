@@ -42,6 +42,7 @@
 
 .certificados{
     margin: 10px;
+    margin-right: -5pxq;
     min-width: 500px;
     height: 350px;
 }

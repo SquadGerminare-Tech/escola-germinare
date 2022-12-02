@@ -5,6 +5,8 @@ const StyleWindow = styled('article')({
   height: 'fit-content',
   boxShadow: '0px 0px 19.207px rgba(46, 48, 146, 0.5)',
   margin: '0 40px',
+  borderRadius: '4px',
+  overflox: 'hidden',
   '& .top': {
     padding: '9px 20px',
     display: 'flex',

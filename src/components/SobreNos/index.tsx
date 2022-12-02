@@ -1,6 +1,6 @@
 import Hero from '../Hero/index'
 import background from '../../assets/background-inicio.png'
-import Instituto from './Instituto/index'
+import GerminareMudancas from './GerminareMudancas/index'
 import NossosValores from './NossosValores'
 import ComponentCarrossel from '../Carrossel/index'
 import { Certificados } from './style'
@@ -81,9 +81,9 @@ const SobreNos = () => {
         }
       />
       <SobreGerminare />
-      {/* <Instituto />
+      <GerminareMudancas />
       <NossosValores />
-      <Ecossistema />
+      {/* <Ecossistema />
       <ComponentCarrossel
         lista={certificados}
         classe={'certificados'}

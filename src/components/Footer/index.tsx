@@ -24,7 +24,7 @@ const Footer = () => {
 
             <div className='footerLinks'>
                 <h1>sobre nós</h1>
-                <p>O instituo</p>
+                <p>O instituto</p>
                 <p>O Germinare</p>
                 <p>Escola da família</p>
                 <p>Grade curricular</p>
@@ -34,7 +34,7 @@ const Footer = () => {
             <div className='footerLinks'>
                 <h1>admissão</h1>
                 <p>Missão</p>
-                <p>valores</p>
+                <p>Valores</p>
                 <p>As etapas</p>
             </div>
 

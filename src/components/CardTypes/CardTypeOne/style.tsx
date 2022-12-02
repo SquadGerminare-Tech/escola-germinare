@@ -23,7 +23,10 @@ const CardTypeOne = styled('div')({
     '& .imgCard': {
         height: '100%',
         width: '50%',
-        borderRadius: '10px 0 0 10px'
+        borderRadius: '10px 0 0 10px',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '20rem',
+        backgroundPosition: 'center',
     }
 })
 
@@ -49,10 +52,11 @@ const CardTypeTwo = styled('div')({
     '& .imgCard': {
         padding: '0',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: '15rem',
+        backgroundSize: '20rem',
         height: '100%',
         width: '50%',
-        borderRadius: '10px 10px'
+        borderRadius: '0 10px 10px 0',
+        backgroundPosition: 'center',
     }
 })
 

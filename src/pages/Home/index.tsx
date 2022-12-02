@@ -1,5 +1,5 @@
 import Header from "../../components/Header"
-import Section_Celular from "../../components/Section_Celular"
+import Section_Celular from "./Section_Celular"
 
 const Home = () => {
     return(

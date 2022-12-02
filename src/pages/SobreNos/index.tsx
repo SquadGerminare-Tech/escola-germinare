@@ -7,6 +7,11 @@ import React from 'react'
 import Header from '../../components/Header/index'
 import SobreGerminare from './SobreGerminare/index'
 import NossosCertificados from './NossosCertificados/index'
+import Germinatech from './Germinatech'
+import EscolaDaFamilia from './EscolaFamilia'
+import Footer from '../../components/Footer'
+import UmDeNos from './UmDeNos/index'
+import Novidades from './Novidades'
 
 const SobreNos = () => {
   return (
@@ -24,6 +29,11 @@ const SobreNos = () => {
       <NossosValores />
       <Ecossistema />
       <NossosCertificados />
+      <Germinatech />
+      <EscolaDaFamilia />
+      <UmDeNos />
+      <Novidades />
+      <Footer />
     </main>
   )
 }

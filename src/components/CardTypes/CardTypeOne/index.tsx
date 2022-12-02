@@ -12,7 +12,7 @@ const Card = (props: cardType) => {
         <>
             {props.right == true ? 
                 <CardTypeOne>
-                <img src={props.background} className='imgCard' alt="imgCard" />
+                <div style={{backgroundImage: `url(${props.background})`}} className='imgCard'/>
                 <div>
                     <h2>{props.title}</h2>
                     <p>{props.subtitle}</p>
@@ -24,7 +24,7 @@ const Card = (props: cardType) => {
                  <h2>{props.title}</h2>
                  <p>{props.subtitle}</p>
              </div>
-             <img src={props.background} className='imgCard' alt="imgCard" />
+             <div style={{backgroundImage: `url(${props.background})`}} className='imgCard'/>
              </CardTypeTwo>
             }
         </>

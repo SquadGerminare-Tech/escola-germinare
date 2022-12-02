@@ -33,8 +33,9 @@ const StyleFooter = styled('div')({
         display: 'flex',
         flexDirection: 'column',
         marginRight: '40px',
+        margin: '18px 0 0 0',
         '& > p': {
-            margin: '18px 0',
+            margin: '18px 0 0 0',
             fontWeight: '400',
             fontSize: '12px',
         },
@@ -62,7 +63,7 @@ const StyleFooter = styled('div')({
             borderBottom: '2px solid #2E3092',
 
             ':hover': {
-                borderBottom: 'px solid white'
+                borderBottom: '2px solid white'
             },
         },
     },

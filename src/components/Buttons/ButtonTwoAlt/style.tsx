@@ -6,7 +6,7 @@ const StyleButtonTwoAlt = styled('button')({
   borderRadius: '4px',
   padding: '8px 20px',
   ':hover': {
-    backgroundColor: '#2E3092',
+    backgroundColor: 'Transparent',
     border: 'solid 3px #387BBD',
     padding: '5px 17px',
     cursor: 'pointer'

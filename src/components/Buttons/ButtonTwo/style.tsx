@@ -1,6 +1,6 @@
 import { styled } from '@mui/system'
 
-const StyleButtonOneAlt = styled('button')({
+const StyleButtonTwo = styled('button')({
   backgroundColor: '#387BBD',
   border: 'none',
   borderRadius: '4px',
@@ -9,7 +9,10 @@ const StyleButtonOneAlt = styled('button')({
     backgroundColor: 'Transparent',
     border: 'solid 3px #387BBD',
     padding: '5px 17px',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    '& .buttoContent':{
+      color: '#387BBD',
+    }
   },
   '& .buttonContent': {
     color: '#EFEFEF',
@@ -19,4 +22,4 @@ const StyleButtonOneAlt = styled('button')({
   }
 })
 
-export default StyleButtonOneAlt
+export default StyleButtonTwo

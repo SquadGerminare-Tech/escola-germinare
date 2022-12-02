@@ -12,6 +12,7 @@ import EscolaDaFamilia from './EscolaFamilia'
 import Footer from '../../components/Footer'
 import UmDeNos from './UmDeNos/index'
 import Novidades from './Novidades'
+import CardNossaEquipe from '../../components/CardTypes/CardNossaEquipe'
 
 const SobreNos = () => {
   return (
@@ -34,6 +35,7 @@ const SobreNos = () => {
       <UmDeNos />
       <Novidades />
       <Footer />
+      {/* <CardNossaEquipe imagePath='' imageAlt='' name='Raul Moreira' office='sla' bg='#000000' /> */}
     </main>
   )
 }

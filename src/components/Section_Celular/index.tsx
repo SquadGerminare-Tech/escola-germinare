@@ -33,10 +33,4 @@ const Section_Celular = (props: Section) => {
     )
 }
 
-$('.main-gallery').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true
-  });
-
 export default Section_Celular

@@ -2,7 +2,7 @@ import { styled } from '@mui/system'
 
 const Certificados = styled('div')({
   cursor: 'pointer',
-  width: '100%',
+  width: '90%',
   height: '100%',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',

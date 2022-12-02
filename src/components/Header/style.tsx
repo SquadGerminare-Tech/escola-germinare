@@ -3,10 +3,15 @@ import { transform } from 'typescript'
 
 const StyleHeader = styled('header')({
   backgroundColor: '#2E3092',
-  padding: '16px 100px',
+  width: '100vw',
+  height: '5rem',
+  padding: '0 100px',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
+  position: 'fixed',
+  top: '0',
+  zIndex: '2',
   '& .logo': {
     height: '3.25rem'
   },

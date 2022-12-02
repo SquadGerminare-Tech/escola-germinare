@@ -1,9 +1,11 @@
 import * as React from 'react';
 import {BackgroundSection, ContainerTxt, ContainerCelular} from './style'
+import $ from 'jquery'
 
 interface Section {
     title: string,
-    children: React.ReactNode
+    children: React.ReactNode,
+    
 }
 
 const Section_Celular = (props: Section) => {
@@ -19,13 +21,10 @@ const Section_Celular = (props: Section) => {
                 </ContainerTxt>
 
                 <ContainerCelular>
-                        
+
                 </ContainerCelular>
                     
                 </div>
-
-
-
                 
 
             </BackgroundSection>
@@ -33,5 +32,11 @@ const Section_Celular = (props: Section) => {
         </>
     )
 }
+
+$('.main-gallery').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true
+  });
 
 export default Section_Celular

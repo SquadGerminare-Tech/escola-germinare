@@ -1,7 +1,7 @@
 import { styled } from '@mui/system'
 
 const StyleInstituto = styled('section')({
-  padding: '60px 100px',
+  padding: '20px 100px',
   position: 'relative',
   textAlign: 'center',
   color: '#2E3092',

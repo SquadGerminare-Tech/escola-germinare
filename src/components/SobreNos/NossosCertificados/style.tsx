@@ -11,4 +11,12 @@ const Certificados = styled('div')({
   color: 'rgb(232, 231, 231)'
 })
 
-export { Certificados }
+const StyleCertificados = styled('div')({
+    textAlign: 'center',
+    "& h2": {
+        padding: '40px',
+        fontSize: '2rem'
+    }
+})
+
+export { Certificados, StyleCertificados }

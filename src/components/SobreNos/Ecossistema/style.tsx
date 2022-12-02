@@ -5,8 +5,8 @@ const StyleEco = styled('div')({
     "& .stick": {
         position: 'sticky',
         top: '100px',
-        bottom: '10px'
-
+        bottom: '10px',
+        height: '200px',
     }
 })
 

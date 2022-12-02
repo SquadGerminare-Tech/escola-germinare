@@ -1,5 +1,5 @@
 import valores from '../../../assets/valores.png'
-import ComponentCarrossel from '../../Carrossel/index'
+import ComponentCarrossel from '../../../components/Carrossel/index'
 import { Valores, StyleValores } from "./style"
 
 const NossosValores = () => {

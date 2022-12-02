@@ -1,4 +1,4 @@
-import ComponentCarrossel from '../../Carrossel/index'
+import ComponentCarrossel from '../../../components/Carrossel/index'
 import { Certificados, StyleCertificados } from './style'
 import CEBAS from '../../../assets/CEBAS.png'
 import CMDCA from '../../../assets/CMDCA.png'

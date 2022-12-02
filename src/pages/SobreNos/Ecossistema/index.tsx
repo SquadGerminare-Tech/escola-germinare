@@ -1,4 +1,4 @@
-import Card from "../../Card/index"
+import Card from "../../../components/Card/index"
 import image1 from '../../../assets/img-card1.png'
 import StyleEco from "./style"
 

@@ -37,7 +37,7 @@ const Header = (/*props: tipo*/) => {
 
   return (
     <StyleHeader>
-      <img src={logo} alt='logo' className='logo'></img>
+      <Link to='/'><img src={logo} alt='logo' className='logo'></img></Link>
       <ul className='nav'>
         <li className='navItemContainer'>
           <Link to='/sobrenos' className='navItem'>Sobre Nós</Link>

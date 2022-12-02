@@ -1,5 +1,5 @@
 import AboutGerminare from './style'
-import Window from '../../Window'
+import Window from '../../../components/Window'
 import windowImage from '../../../assets/fotoinstitucional-01.png'
 
 const SobreGerminare = () => {

@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { BackgroundSection, ContainerTxt, ContainerCelular } from './style'
-import $ from 'jquery'
+import {BackgroundSection, ContainerTxt, ContainerCelular} from './style'
 
 interface Section {
     title: string,

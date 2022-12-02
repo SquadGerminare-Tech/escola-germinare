@@ -38,7 +38,7 @@ const Window = (props: window) => {
           <circle cx='8' cy='7.5' r='7.5' fill='#387BBD' />
         </svg>
       </div>
-      <img style={{ height: '329px' }} src={props.image} alt={props.imageAlt} />
+      <img style={{ height: '100%' }} src={props.image} alt={props.imageAlt} />
     </StyleWindow>
   )
 }

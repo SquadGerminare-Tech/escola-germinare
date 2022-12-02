@@ -1,14 +1,14 @@
 import { styled } from '@mui/system'
 
-const StyleInstituto = styled('section')({
-  padding: '20px 100px',
+const StyleGerminareMudancas = styled('section')({
+  padding: '60px 100px',
   position: 'relative',
   textAlign: 'center',
   color: '#2E3092',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  backgroundColor: '#E8E7E7',
+  backgroundColor: '#EFEFEF',
   gap: '1.5rem',
   '& .paragrafo': {
     width: '43rem',
@@ -17,4 +17,4 @@ const StyleInstituto = styled('section')({
   }
 })
 
-export default StyleInstituto
+export default StyleGerminareMudancas

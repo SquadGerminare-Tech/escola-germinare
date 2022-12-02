@@ -20,7 +20,7 @@ const NossosValores = () => {
           <h2>Nossos Valores</h2>
           <p>
             Amparados neles, tomamos decisões e trabalhamos para{' '}
-            <i>sermos os melhores naquilo que fazemos</i>. <br />
+            <span>sermos os melhores naquilo que fazemos</span>. <br />
             Por meio deles, nos reconhecemos e nos aproximamos.
           </p>
         </div>

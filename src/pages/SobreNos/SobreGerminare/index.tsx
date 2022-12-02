@@ -21,7 +21,6 @@ const SobreGerminare = () => {
       </div>
       <Window
         image={windowImage}
-        imageAlt='3 alunas da germinare sorrindo'
       ></Window>
     </AboutGerminare>
   )

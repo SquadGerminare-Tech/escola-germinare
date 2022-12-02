@@ -3,7 +3,6 @@ import StyleWindow from './style'
 
 interface window {
   image: string
-  imageAlt: string
 }
 
 const Window = (props: window) => {
@@ -38,7 +37,7 @@ const Window = (props: window) => {
           <circle cx='8' cy='7.5' r='7.5' fill='#387BBD' />
         </svg>
       </div>
-      <img style={{ height: '100%' }} src={props.image} alt={props.imageAlt} />
+      <div style={{ height: '325px', backgroundImage: `url(${props.image })`, width: '430px', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} />
     </StyleWindow>
   )
 }

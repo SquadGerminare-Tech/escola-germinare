@@ -7,7 +7,11 @@ import React from 'react'
 import Header from '../../components/Header/index'
 import SobreGerminare from './SobreGerminare/index'
 import NossosCertificados from './NossosCertificados/index'
-import NossaEquipe from './NossaEquipe'
+import Germinatech from './Germinatech'
+import EscolaDaFamilia from './EscolaFamilia'
+import Footer from '../../components/Footer'
+import UmDeNos from './UmDeNos/index'
+import Novidades from './Novidades'
 
 const SobreNos = () => {
   return (
@@ -24,14 +28,12 @@ const SobreNos = () => {
       <GerminareMudancas />
       <NossosValores />
       <Ecossistema />
-      <NossosCertificados></NossosCertificados>
-      <NossaEquipe></NossaEquipe>
-      {/* <ComponentCarrossel
-        lista={certificados}
-        classe={'certificados'}
-        direcao='x'
-      ></ComponentCarrossel>
-      <ComponentCarrossel lista={certificados} classe={"certificados"} direcao='y'></ComponentCarrossel> */}
+      <NossosCertificados />
+      <Germinatech />
+      <EscolaDaFamilia />
+      <UmDeNos />
+      <Novidades />
+      <Footer />
     </main>
   )
 }

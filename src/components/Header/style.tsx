@@ -19,14 +19,16 @@ const StyleHeader = styled('header')({
     color: '#E8E7E7',
     fontSize: '.875em',
     fontWeight: '400',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    transition: '0.2s linear',
+    ':hover': {
+      paddingBottom: '5px',
+      borderBottom: 'solid #E8E7E7 1px'
+    }
   },
   '& .navItemContainer': {
     padding: '12px 0',
-    ':hover': {
-      paddingBottom: '11px',
-      borderBottom: 'solid #E8E7E7 1px'
-    }
+    
   },
   '& .nav': {
     display: 'flex',

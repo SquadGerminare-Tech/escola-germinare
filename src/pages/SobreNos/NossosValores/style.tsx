@@ -17,9 +17,9 @@ const StyleValores = styled('section')({
     '& p': {
       marginRight: '30px',
       fontSize: '1.2rem',
-      '& i': {
+      '& span': {
         color: '#2E3092',
-        fontWeight: '700',
+        fontWeight: '600',
         textStyle: 'italic'
       }
     }

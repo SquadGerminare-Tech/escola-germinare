@@ -2,6 +2,7 @@ import React from 'react'
 import StyleGerminareMudancas from './style'
 
 const GerminareMudancas = () => {
+<<<<<<< HEAD
   return (
     <StyleGerminareMudancas>
       <h2 style={{ fontSize: '2.5em' }}>A Germinare é feita de mudanças</h2>
@@ -24,3 +25,9 @@ const GerminareMudancas = () => {
 }
 
 export default GerminareMudancas
+=======
+
+}
+
+export default GerminareMudancas
+>>>>>>> 6baedfe09a7d6b12533ca18b0c5110d2dfbfc4c9

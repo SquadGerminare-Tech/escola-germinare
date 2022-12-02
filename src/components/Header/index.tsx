@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
+import { Outlet, Link } from "react-router-dom";
 import searchIcon from '../../assets/lupa.png'
 import { useRef, useState, useEffect } from 'react'
 import StyleHeader from './style'
@@ -36,12 +37,10 @@ const Header = (/*props: tipo*/) => {
 
   return (
     <StyleHeader>
-      <img src={logo} alt='logo' className='logo'></img>
+      <Link to='/'><img src={logo} alt='logo' className='logo'></img></Link>
       <ul className='nav'>
         <li className='navItemContainer'>
-          <a className='navItem' href=''>
-            Sobre Nós
-          </a>
+          <Link to='/sobrenos' className='navItem'>Sobre Nós</Link>
         </li>
         <li className='navItemContainer'>
           <a className='navItem' href=''>
@@ -89,6 +88,7 @@ const Header = (/*props: tipo*/) => {
         ></ButtonOneAlt>
         {/* <button className='botao'>Área do Aluno</button> */}
       </ul>
+      <Outlet />
     </StyleHeader>
   )
 }

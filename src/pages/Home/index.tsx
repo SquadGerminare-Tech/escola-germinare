@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import Hero from '../../components/Hero'
+import BigNumbers from './BigNumbers'
 import SectionCelular from './SectionCelular'
 import heroHeader from '../../assets/hero-home.png'
 
@@ -12,6 +13,7 @@ const Home = () => {
         background={heroHeader}
         text='Estamos a 12 anos fornecendo ensino de qualidade e despertando o grande líder que há dentro de cada um. Venha fazer parte dessa jornada!'
       ></Hero>
+      <BigNumbers></BigNumbers>
       <SectionCelular
         title='Nossas redes sociais' video='' type='' >
           <p>Estamos sempre atualizando nossas <i>redes sociais</i>. Não deixe de nos seguir no <strong>Instagram</strong> e no <strong>TikTok</strong>.</p>

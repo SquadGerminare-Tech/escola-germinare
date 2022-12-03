@@ -9,6 +9,7 @@ const StyleCardNossaEquipe = styled('section')({
   alignItems: 'center',
   gap: '.5rem',
   borderRadius: '8px',
+  margin: '10px',
   '& .background': {
     height: '13rem',
     borderRadius: '4px',

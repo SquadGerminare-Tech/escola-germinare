@@ -15,6 +15,7 @@ const StyleCertificados = styled('div')({
     textAlign: 'center',
     color: '#2E3092',
     backgroundColor: '#E8E7E7',
+    paddingBottom: '40px',
     "& h2": {
         padding: '40px',
         fontSize: '2rem',

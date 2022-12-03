@@ -13,6 +13,8 @@ import Footer from '../../components/Footer'
 import UmDeNos from './UmDeNos/index'
 import Novidades from './Novidades'
 import CardNossaEquipe from '../../components/CardTypes/CardNossaEquipe'
+import NossaEquipe from './NossaEquipe/index'
+import Doacao from '../Doações'
 
 const SobreNos = () => {
   return (
@@ -30,12 +32,12 @@ const SobreNos = () => {
       <NossosValores />
       <Ecossistema />
       <NossosCertificados />
+      <NossaEquipe />
       <Germinatech />
       <EscolaDaFamilia />
       <UmDeNos />
       <Novidades />
       <Footer />
-      {/* <CardNossaEquipe imagePath='' imageAlt='' name='Raul Moreira' office='sla' bg='#000000' /> */}
     </main>
   )
 }

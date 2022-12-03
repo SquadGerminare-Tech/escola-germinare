@@ -6,11 +6,11 @@ const CardTypeThree = styled('div')({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '380px',
-    height: '520px',
+    width: '22rem',
+    height: '30rem',
     border: '2px solid #2E3092',
-    borderRadius: '10px',
-    padding: '0 30px',
+    borderRadius: '8px',
+    padding: '30px 25px',
     textAlign: 'center',
     margin: '0 20px',
     '& h2': {
@@ -18,11 +18,16 @@ const CardTypeThree = styled('div')({
         fontWeight: '500',
         width: '100%'
     },
-    '& #conteudo': {
+    '& .conteudo': {
         display: 'flex',
         maxHeight: '110px',
         marginBottom: '10px',
-        alignItems: 'center'
+        alignItems: 'center',
+    },
+    '& button': {
+        width:'2rem',
+        background: 'none',
+        border:'none',
     }
 })
 

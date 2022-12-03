@@ -1,10 +1,9 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import SobreNos from './pages/SobreNos/index'
-import Home from './pages/Home';
-import Footer from './components/Footer';
-import Doacao from './pages/Doações';
+import Home from './pages/Home'
+import Doacao from './pages/Doações'
 
 function App() {
   return (

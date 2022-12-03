@@ -4,6 +4,7 @@ const StyleBigNumbers = styled('section')({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
+  background: '#EFEFEF',
   alignItems: 'center',
   padding: '60px 0',
   gap: '2.5rem',

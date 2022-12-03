@@ -16,7 +16,7 @@ const Home = () => {
         background={heroHeader}
         text='Estamos a 12 anos fornecendo ensino de qualidade e despertando o grande líder que há dentro de cada um. Venha fazer parte dessa jornada!'
       ></Hero>
-      <BigNumbers></BigNumbers>
+      <BigNumbers />
       <InfoCard
         link=''
         title='Doações'
@@ -48,7 +48,7 @@ const Home = () => {
           academiasgerminare
         </a>
       </SectionCelular>
-      <Footer></Footer>
+      <Footer />
     </>
   )
 }

@@ -17,13 +17,13 @@ const Home = () => {
         text='Estamos a 12 anos fornecendo ensino de qualidade e despertando o grande líder que há dentro de cada um. Venha fazer parte dessa jornada!'
       ></Hero>
       <BigNumbers></BigNumbers>
-
       <InfoCard
+        link=''
         title='Doações'
         image={doacao}
         subtitle='Um novo modelo de formação, já iniciado pela Escola da Família é o uso da tecnologia por meio das lives, uma estratégia que se tornou popular durante a pandemia da Covid-19. '
         right={false}
-      />
+      ></InfoCard>
 
       <SectionCelular title='Nossas redes sociais' video='' type=''>
         <p>

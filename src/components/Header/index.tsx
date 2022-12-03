@@ -26,7 +26,6 @@ const Header = (/*props: tipo*/) => {
         ' visibility 1s, opacity 0.2s linear, margin-left 1s'
       hidde.current.style.marginLeft = '-180px'
     } else {
-      console.log('ola')
       hidde.current.style.marginLeft = '0'
       hidde.current.style.transition =
         ' visibility 2s, opacity 1s linear, margin-left 0.7s'
@@ -48,7 +47,7 @@ const Header = (/*props: tipo*/) => {
           </a>
         </li>
         <li className='navItemContainer'>
-        <a className='navItem' href=''>
+          <a className='navItem' href=''>
             Academias
           </a>
         </li>
@@ -58,9 +57,7 @@ const Header = (/*props: tipo*/) => {
           </a>
         </li>
         <li className='navItemContainer'>
-          <a className='navItem' href=''>
-            GerminaTech
-          </a>
+          <Link to='/germinatech' className='navItem'>GerminaTech</Link>
         </li>
         <button onClick={showItem} className='buttonSearch'>
           <img

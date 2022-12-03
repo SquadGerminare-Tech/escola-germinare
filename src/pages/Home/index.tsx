@@ -4,6 +4,7 @@ import SectionCelular from './SectionCelular'
 import heroHeader from '../../assets/hero-home.png'
 import InfoCard from '../../components/InfoCard/index'
 import doacao from '../../assets/doacoes_home.png'
+import Forms from './Forms'
 
 
 const Home = () => {
@@ -28,6 +29,8 @@ const Home = () => {
           <p>Para saber mais sobre o dia-a-dia dos alunos siga:</p>
           <a href="https://www.instagram.com/academiasgerminare/" style={{fontWeight: '700', color: 'black'}}>academiasgerminare</a>
       </SectionCelular>
+
+      <Forms />
     </>
   )
 }

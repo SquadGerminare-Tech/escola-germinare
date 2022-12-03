@@ -19,7 +19,6 @@ const Section_Celular = (props: Section) => {
                         <p>{props.children}</p>
                     </ContainerTxt>
                 </div>
-
                 <div>
                     < ElementCelular />
                     <ContainerCelular>

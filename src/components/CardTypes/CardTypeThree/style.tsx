@@ -18,7 +18,7 @@ const CardTypeThree = styled('div')({
         fontWeight: '500',
         width: '100%'
     },
-    '& #conteudo': {
+    '& .conteudo': {
         display: 'flex',
         maxHeight: '110px',
         marginBottom: '10px',

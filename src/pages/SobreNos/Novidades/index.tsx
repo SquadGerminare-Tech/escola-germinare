@@ -5,6 +5,7 @@ import criancas from '../../../assets/criancas-cards.png'
 import xadrez from '../../../assets/xadrez-cards.png'
 import ComponentCarrossel from '../../../components/Carrossel'
 import inverno from '../../../assets/inverno-cards.png'
+import hallowin from '../../../assets/hallowin-cards.png'
 
 const Novidades = () => {
   const listaNovidades = [
@@ -26,7 +27,7 @@ const Novidades = () => {
     <CardTypeThree
       title='Ganhadores do Enigma de Halloween'
       content='O(A) candidato(a) fará um curso de programação de sistemas lorem lorem lorem lorem lorem lorem'
-      image={criancas}
+      image={hallowin}
     />,
     <CardTypeThreeAlt content='MAIS NOTÍCIAS' link='#'></CardTypeThreeAlt>
   ]

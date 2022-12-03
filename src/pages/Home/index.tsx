@@ -51,9 +51,9 @@ const Home = () => {
         </a>
       </SectionCelular>
       <Forms />
-      <Footer />
+      <Footer></Footer>
     </>
-  )
+    )
 }
 
 export default Home

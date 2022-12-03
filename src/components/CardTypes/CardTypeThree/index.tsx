@@ -22,7 +22,7 @@ const Card3 = (props: cardNovidades) => {
         }}
       />
       <h2>{props.title}</h2>
-      <div id='conteudo'>
+      <div className='conteudo'>
         <p>{props.content}</p>
       </div>
       <button style={{}}>

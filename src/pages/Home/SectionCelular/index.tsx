@@ -4,7 +4,7 @@ import {BackgroundSection, ContainerTxt, ContainerCelular, ElementCelular} from 
 interface Section {
     title: string,
     children: React.ReactNode,
-    video: string,
+    video: any,
     type: string
 
 }

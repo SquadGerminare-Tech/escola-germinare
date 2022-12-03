@@ -2,6 +2,9 @@ import Header from '../../components/Header'
 import Hero from '../../components/Hero'
 import SectionCelular from './SectionCelular'
 import heroHeader from '../../assets/hero-home.png'
+import InfoCard from '../../components/InfoCard/index'
+import doacao from '../../assets/doacoes_home.png'
+
 
 const Home = () => {
   return (
@@ -12,6 +15,9 @@ const Home = () => {
         background={heroHeader}
         text='Estamos a 12 anos fornecendo ensino de qualidade e despertando o grande líder que há dentro de cada um. Venha fazer parte dessa jornada!'
       ></Hero>
+
+      <InfoCard title="Dações" image={heroHeader} subtitle="Um novo modelo de formação, já iniciado pela Escola da Família é o uso da tecnologia por meio das lives, uma estratégia que se tornou popular durante a pandemia da Covid-19. " right={false}  />
+
       <SectionCelular
         title='Nossas redes sociais' video='' type='' >
           <p>Estamos sempre atualizando nossas <i>redes sociais</i>. Não deixe de nos seguir no <strong>Instagram</strong> e no <strong>TikTok</strong>.</p>

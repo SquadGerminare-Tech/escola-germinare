@@ -2,13 +2,13 @@ import { styled } from '@mui/system'
 
 const StyleButtonOneAlt = styled('button')({
   backgroundColor: '#387BBD',
-  border: 'none',
+  border: 'solid 3px #387BBD',
   borderRadius: '4px',
   padding: '8px 20px',
   ':hover': {
     backgroundColor: 'Transparent',
     border: 'solid 3px #387BBD',
-    padding: '5px 17px',
+    padding: '8px 20px',
     cursor: 'pointer'
   },
   '& .buttonContent': {

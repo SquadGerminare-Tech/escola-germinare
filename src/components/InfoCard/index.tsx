@@ -7,7 +7,8 @@ interface card {
   image: any,
   titleColorWord?: string,
   subtitle: string,
-  right: boolean
+  right: boolean,
+  link: string
 }
 
 const InfoCard = (props: card) => {
@@ -32,7 +33,7 @@ const InfoCard = (props: card) => {
               {props.title} <span>{props.titleColorWord}</span>
             </h2>
             <p>{props.subtitle}</p>
-            <ButtonOne content='Saiba Mais' link='' />
+            <ButtonOne content='Saiba Mais' link={props.link} />
           </div>
         </StyleInfoCard>
       )}

@@ -8,11 +8,12 @@ const CardTypeOne = styled('div')({
     borderRadius: '10px', 
     color: 'white',
     margin: '10px',
+    filter: 'drop-shadow(0px 0px 19.207px rgba(46, 48, 146, 0.5))',
     '& div':{
         padding: '20px',
         width: '50%',
         '& h2':{
-            fontWeight: '100'
+            fontWeight: '600'
         },
         '& p':{
             marginTop: '10px',
@@ -31,6 +32,7 @@ const CardTypeOne = styled('div')({
 })
 
 const CardTypeTwo = styled('div')({
+    filter: 'drop-shadow(0px 0px 19.207px rgba(46, 48, 146, 0.5))',
     display: 'flex',
     backgroundColor: '#40429B',
     width:'500px',
@@ -41,7 +43,7 @@ const CardTypeTwo = styled('div')({
     '& div':{
         padding: '20px',
         '& h2':{
-            fontWeight: '100'
+            fontWeight: '600'
         },
         '& p':{
             marginTop: '10px',

@@ -3,10 +3,10 @@ import StyleInfoCard from './style'
 import ButtonOne from '../Buttons/ButtonOne/index'
 
 interface card {
-  title: string
-  image: string
-  titleColorWord?: string
-  subtitle: string
+  title: string,
+  image: any,
+  titleColorWord?: string,
+  subtitle: string,
   right: boolean
 }
 

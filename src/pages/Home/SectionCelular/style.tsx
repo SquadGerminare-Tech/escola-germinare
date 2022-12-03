@@ -8,7 +8,6 @@ const BackgroundSection = styled('div')({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection:'row',
-    marginTop:'5rem',
     '& div': {
         margin: '20px 30px',
         display: 'flex',

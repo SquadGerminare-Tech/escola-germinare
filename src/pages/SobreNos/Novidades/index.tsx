@@ -33,8 +33,8 @@ const Novidades = () => {
 
   return (
     <StyleNovidades>
-      <h2>
-        Fique por dentro das <span>novidades</span>
+      <h2 className='h2'>
+        Fique por dentro das <span style={{color:'#387BBD'}}>novidades</span>
       </h2>
       <ComponentCarrossel lista={listaNovidades} direcao='x' />
     </StyleNovidades>

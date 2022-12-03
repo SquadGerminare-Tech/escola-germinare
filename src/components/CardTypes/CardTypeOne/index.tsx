@@ -1,4 +1,4 @@
-import {CardTypeOne, CardTypeTwo} from './style'
+import { CardTypeOne, CardTypeTwo } from './style'
 
 interface cardType {
     background?: string,
@@ -8,24 +8,24 @@ interface cardType {
 }
 
 const Card = (props: cardType) => {
-    return(
+    return (
         <>
-            {props.right == true ? 
+            {props.right == true ?
                 <CardTypeOne>
-                <div style={{backgroundImage: `url(${props.background})`}} className='imgCard'/>
-                <div>
-                    <h2>{props.title}</h2>
-                    <p>{props.subtitle}</p>
-                </div>
+                    <div style={{ backgroundImage: `url(${props.background})` }} className='imgCard' />
+                    <div>
+                        <h2>{props.title}</h2>
+                        <p>{props.subtitle}</p>
+                    </div>
                 </CardTypeOne>
-             : 
-             <CardTypeTwo>
-             <div>
-                 <h2>{props.title}</h2>
-                 <p>{props.subtitle}</p>
-             </div>
-             <div style={{backgroundImage: `url(${props.background})`}} className='imgCard'/>
-             </CardTypeTwo>
+                :
+                <CardTypeTwo>
+                    <div>
+                        <h2>{props.title}</h2>
+                        <p>{props.subtitle}</p>
+                    </div>
+                    <div style={{ backgroundImage: `url(${props.background})` }} className='imgCard' />
+                </CardTypeTwo>
             }
         </>
     )

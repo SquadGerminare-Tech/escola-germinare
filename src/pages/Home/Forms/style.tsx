@@ -29,7 +29,7 @@ const InputDif = styled('textarea')({
 
 const Label = styled('label')({
     color:'#2E3092',
-    margin:'0 0 -40px 10px',
+    margin:'0 0 -30px 10px',
     fontSize:'15px',
     zIndex:'6',
     backgroundColor:'#EFEFEF',
@@ -70,8 +70,30 @@ const BackgroundSection = styled('div')({
         margin: '20px 30px',
         display: 'flex',
         flexDirection: 'column',
-        alignItems:'center',
+        alignItems:'flex-start'
     }
 })
 
-export {Input, InputDif, Label, Form, Button, Title, BackgroundSection}
+const Contato = styled('p')({
+    width:'366px',
+    color:'#2E3092',
+    fontSize:'16px',
+})
+
+const ContatoT = styled('p')({
+    width:'366px',
+    color:'#2E3092',
+    fontSize:'16px',
+    fontWeight:'600',
+    margin:'10px 0 0'
+
+})
+
+const ElementInfo = styled('span')({
+    width:'37px',
+    height:'2px',
+    backgroundColor:'#2E3092',
+    margin:'0 0 10px'
+})
+
+export {Input, InputDif, Label, Form, Button, Title, BackgroundSection, Contato, ContatoT, ElementInfo}

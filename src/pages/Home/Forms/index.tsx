@@ -1,6 +1,6 @@
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
-import { Input, InputDif, Label, Form, Button, Title, BackgroundSection } from "./style"
+import { Input, InputDif, Label, Form, Button, Title, BackgroundSection, Contato, ContatoT, ElementInfo } from "./style"
 
 export default function Forms() {
     const [email, setEmail] = useState({ value: "", valid: true });
@@ -8,7 +8,24 @@ export default function Forms() {
 
         <BackgroundSection>
 
-
+        <div>
+        <Title>Contatos</Title>
+        <ContatoT>Informações sobre doações</ContatoT>
+        <Contato>instituto@germinare.org.br</Contato>
+        <ElementInfo />
+        <ContatoT>Imprensa e Relações Institucionais</ContatoT>
+        <Contato>comunicacao@germinare.org.br</Contato>
+        <ElementInfo />
+        <ContatoT>Processo de Admissão</ContatoT>
+        <Contato>admissao@germinare.org.br</Contato>
+        <ElementInfo />
+        <ContatoT>Ouvidoria</ContatoT>
+        <Contato>ouvidoria@germinare.org.br</Contato>
+        <ElementInfo />
+        <ContatoT>Trabalhe conosco</ContatoT>
+        <Contato>rh@germinare.org.br</Contato>
+        <ElementInfo />
+        </div>
 
 
 
